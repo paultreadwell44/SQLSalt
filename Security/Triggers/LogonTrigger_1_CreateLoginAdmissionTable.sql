@@ -1,17 +1,6 @@
 use master
 go
 
-if object_id('server_login_audit') is not null
-	drop table dbo.server_login_audit
-go
-create table dbo.server_login_audit
-(
-	login_name nvarchar(256) not null,
-	attempt_date datetime not null,
-	is_successful bit not null
-)
-go
-
 if object_id('server_login_admission') is not null
 	drop table dbo.server_login_admission
 go

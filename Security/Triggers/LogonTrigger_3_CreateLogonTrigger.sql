@@ -15,8 +15,7 @@ as
 	declare 
 		@current_login nvarchar(256),
 		@current_weekday int,
-		@current_time time,
-		@is_denied bit
+		@current_time time
 		
 	select 
 		@current_login = original_login(),
@@ -29,43 +28,12 @@ as
 		from master.dbo.server_login_admission
 		where login_name = @current_login
 		and deny_day = @current_weekday
-		and @current_time between deny_time_begin and deny_time_end
+		and 
+		(
+			@current_time between deny_time_begin and deny_time_end
+			or deny_full_day = 1
+		)
 	)
-		begin
-			insert into master.dbo.server_login_audit
-			(
-				login_name,
-				attempt_date,
-				is_successful
-			)
-			values
-			(
-				@current_login,
-				getdate(),
-				0
-			)
-			
-			select @is_denied = 1
-		end
-	else
-		begin
-			insert into master.dbo.server_login_audit
-			(
-				login_name,
-				attempt_date,
-				is_successful
-			)
-			values
-			(
-				@current_login,
-				getdate(),
-				1
-			)
-			
-			select @is_denied = 0
-		end
-		
-	if @is_denied = 1
 		begin
 			rollback
 		end
