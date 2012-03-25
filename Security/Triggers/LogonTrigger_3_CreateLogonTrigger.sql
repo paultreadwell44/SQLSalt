@@ -1,7 +1,20 @@
+/*************************************************************
+Author: Thomas Stringer
+Date Created: 3/25/2012
+
+Script Description:
+	the create script for the LOGON TRIGGER to deny login 
+	connectivity based off of the deny admissions table
+*************************************************************/
 use master
 go
 
-if exists (select * from master.sys.server_triggers where name = 'logon_trigger_deny_by_time')
+if exists 
+(
+	select * 
+	from master.sys.server_triggers 
+	where name = 'logon_trigger_deny_by_time'
+)
 	drop trigger logon_trigger_deny_by_time
 	on all server
 go

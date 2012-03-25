@@ -1,3 +1,12 @@
+/*************************************************************
+Author: Thomas Stringer
+Date Created: 3/25/2012
+
+Script Description:
+	this is the CREATE TABLE script that creates the base 
+	table (as well as CHECK constraints) for the deny
+	admissions reference table for the logon trigger
+*************************************************************/
 use master
 go
 
@@ -51,3 +60,4 @@ add constraint CK_DenyTimeRelativity check
 		and deny_time_end is null
 	)
 )
+go
