@@ -1,22 +1,28 @@
-SQL Salt
----------
+# SQLSalt
+_SQL Server Database Administration Code and Helpful Scripts_
 
-_SQL Server Database Administration Scripts_
+***
+## <font color="blue">Indexes</font>
+### <font color="green">Physical</font>
+`IndexFragmentationThreshold.sql`  _get indexes fragmented by a certain %_
 
-##Index
+## <font color="blue">Instance</font>
+### <font color="green">Databases</font>
+`RecoveryModel_GetNonFullRecoveryModelDBs.sql`  _retrieve non Full Recovery Model databases_  
+### <font color="green">Storage</font>
+`BufferPool_DataCache_TotalSizeOfDataPages.sql`  _get buffer pool data cache size_  
+`BufferPool_PlanCache_CountsByObjType.sql`  _get buffer pool plan cache params by object type_  
+### <font color="green">Waits</font>
+`WaitStats_CurrentUserWaits.sql`  _get the current waits by user SPIDs_  
+`WaitStatsExplained_1_CreateTable1.sql`  _create the base table for Wait Stats Explained_  
+`WaitStatsExplained_2_CreateProc.sql`  _create the stored proc to get wait stats with descriptions_  
 
-  * **IndexFragmentationThreshold.sql** : Location - \Indexes\ : script to select indexes that are fragmented beyond a particular percentage in a particular database
+## <font color="blue">Recoverability</font>
+### <font color="green">BackupRestore</font>
+`BackupRestore_TestBackupDatabaseFromBackupFile.sql`  _create stored proc to test backups from a backup file_  
 
-##Instance Management
-
-  * **BufferPool_DataCache_TotalSizeOfDataPages.sql** : Location - \InstanceManagement\Storage\ : gets the total space of data pages in the buffer pool
-  * **BufferPool_PlanCache_CountsByObjType.sql** : Location - \InstanceManagement\Storage\ : gets statistics of the plan cache by object type (i.e. stored proc, ad hoc query, etc.)
-  * **RecoveryModel_GetNonFullRecoveryModelDBs.sql** : Location - \InstanceManagement\Databases\ : a check on all databases that aren't in Full Recovery Model
-  * **WaitStatsExplained_1_CreateTable.sql** : Location - \InstanceManagement\ : script to create base table for wait stats explained stored procedure
-  * **WaitStatsExplained_2_CreateProc.sql** : Location - \InstanceManagement\ : script to create stored procedure to query sys.dm_os_wait_stats and correlate it with BOL explanations for wait stats
-
-##Security
-
-  * **LogonTrigger_1_CreateLoginAdmissionTable.sql** : Location - \Security\Triggers\ : creates the base table to store the logon times that particular logins will be permitted/denied
-  * **LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql** : Location - \Security\Triggers\ : script to create the stored procedure to add a login deny entry into the admissions table
-  * **LogonTrigger_3_CreateLogonTrigger.sql** : Location - \Security\Triggers\ : creates the logon trigger to get the current connection parameters and compare them to a potential deny in the admissions table
+## <font color="blue">Security</font>
+### <font color="green">Triggers</font>
+`LogonTrigger_1_CreateLoginAdmissionTable.sql`  _create the base table to house login accessibility to instance_  
+`LogonTrigger_2_CreateAddLoginPermittedTimedStoredProcedure.sql`  _create stored proc to add deny time to login admission/deny table_  
+`LogonTrigger_3_CreateLogonTrigger.sql`  _create the logon trigger to check the deny table for login instance access_  
