@@ -1,0 +1,27 @@
+*****************************************************************
+*************     Setting up DBMail with Gmail      *************
+*****************************************************************
+
+1. Create a database mail profile
+2. Use the below to create an account
+	a. Outgoing mail server (SMTP)
+	b. Email Id: YourGmail@gmail.com
+	c. Server Name: smtp.gmail.com
+	d. Port #: 587
+	e. (Select) Requires a secure connection
+	f. (Select) Basic Auth
+		i. User Name: YourGmail@gmail.com
+		ii. Password: Enter this account's password
+	g. Continue, and make it the Default Public Profile
+3. Open up SQL Server Agent Properties
+	a. Mail Session
+		i. (Select) Enable mail profile
+		ii. Mail System: Database Mail
+		iii. Mail Profile: Your newly created profile
+	b. Save
+4. Restart the SQL Server Agent
+5. Test with a test email
+	a. Right-click Database Mail
+	b. Send Test Email...
+	c. Input parameters then send
+	d. Wait for email in Inbox

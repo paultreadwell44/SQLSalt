@@ -1,28 +1,37 @@
-# SQLSalt
-_SQL Server Database Administration Code and Helpful Scripts_
+# SQL Salt 
+ _SQL Server Database Administration Code and Helpful Scripts_ 
 
 ***
-## <font color="blue">Indexes</font>
-### <font color="green">Physical</font>
-`IndexFragmentationThreshold.sql`  _get indexes fragmented by a certain %_
-
-## <font color="blue">Instance</font>
-### <font color="green">Databases</font>
-`RecoveryModel_GetNonFullRecoveryModelDBs.sql`  _retrieve non Full Recovery Model databases_  
-### <font color="green">Storage</font>
-`BufferPool_DataCache_TotalSizeOfDataPages.sql`  _get buffer pool data cache size_  
-`BufferPool_PlanCache_CountsByObjType.sql`  _get buffer pool plan cache params by object type_  
-### <font color="green">Waits</font>
-`WaitStats_CurrentUserWaits.sql`  _get the current waits by user SPIDs_  
-`WaitStatsExplained_1_CreateTable1.sql`  _create the base table for Wait Stats Explained_  
-`WaitStatsExplained_2_CreateProc.sql`  _create the stored proc to get wait stats with descriptions_  
-
-## <font color="blue">Recoverability</font>
-### <font color="green">BackupRestore</font>
-`BackupRestore_TestBackupDatabaseFromBackupFile.sql`  _create stored proc to test backups from a backup file_  
-
-## <font color="blue">Security</font>
-### <font color="green">Triggers</font>
-`LogonTrigger_1_CreateLoginAdmissionTable.sql`  _create the base table to house login accessibility to instance_  
-`LogonTrigger_2_CreateAddLoginPermittedTimedStoredProcedure.sql`  _create stored proc to add deny time to login admission/deny table_  
-`LogonTrigger_3_CreateLogonTrigger.sql`  _create the logon trigger to check the deny table for login instance access_  
+## Database
+### Storage
+[TableSpace_GetSpaceAndPagesByUserTable.sql](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesByUserTable.sql)
+[TableSpace_GetSpaceAndPagesForAllUserTables.sql](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesForAllUserTables.sql)
+## DBMail
+### Setup
+[DBMail_Setup_GmailForDBMail.txt](https://github.com/trstringer/SQLSalt/blob/master/DBMail/Setup/DBMail_Setup_GmailForDBMail.txt)
+## Indexes
+### Physical
+[IndexFragmentationThreshold.sql](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/IndexFragmentationThreshold.sql)
+### Usage
+[Index_Usage_GetUnusedIndexes.sql](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Index_Usage_GetUnusedIndexes.sql)
+## Instance
+### Databases
+[RecoveryModel_GetNonFullRecoveryModelDBs.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/RecoveryModel_GetNonFullRecoveryModelDBs.sql)
+### Storage
+[BufferPool_DataCache_TotalSizeOfDataPages.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_DataCache_TotalSizeOfDataPages.sql)
+[BufferPool_PlanCache_ClearCache.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_ClearCache.sql)
+[BufferPool_PlanCache_CountsByObjType.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_CountsByObjType.sql)
+[BufferPool_PlanCache_RecompileProc.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_RecompileProc.sql)
+[BufferPool_PlanCache_StoredProcsForDB.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_StoredProcsForDB.sql)
+### Waits
+[WaitStatsExplained_1_CreateTable.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_1_CreateTable.sql)
+[WaitStatsExplained_2_CreateProc.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_2_CreateProc.sql)
+[WaitStats_CurrentUserWaits.sql](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStats_CurrentUserWaits.sql)
+## Recoverability
+### BackupRestore
+[BackupRestore_TestBackupDatabaseFromBackupFile.sql](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/BackupRestore/BackupRestore_TestBackupDatabaseFromBackupFile.sql)
+## Security
+### Triggers
+[LogonTrigger_1_CreateLoginAdmissionTable.sql](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_1_CreateLoginAdmissionTable.sql)
+[LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql)
+[LogonTrigger_3_CreateLogonTrigger.sql](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_3_CreateLogonTrigger.sql)
