@@ -34,6 +34,8 @@
 [`WaitStatsExplained_2_CreateProc.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_2_CreateProc.sql)  
 [`WaitStats_CurrentUserWaits.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStats_CurrentUserWaits.sql)  
 ## Recoverability  
+### AttachDetach  
+[`Recoverability_AttachDetach_AttachDbWithNoLogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/AttachDetach/Recoverability_AttachDetach_AttachDbWithNoLogFile.sql)  
 ### BackupRestore  
 [`BackupRestore_TestBackupDatabaseFromBackupFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/BackupRestore/BackupRestore_TestBackupDatabaseFromBackupFile.sql)  
 ## Security  
