@@ -2,6 +2,11 @@
  _SQL Server Database Administration Code and Helpful Scripts_ 
 
 ***
+## AdminMisc  
+### DAC  
+[`AdminMisc_DAC_ConnectToDAC.txt`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/DAC/AdminMisc_DAC_ConnectToDAC.txt)  
+[`AdminMisc_DAC_EnableRemoteDAC.sql`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/DAC/AdminMisc_DAC_EnableRemoteDAC.sql)  
+[`AdminMisc_DAC_GetDACPort.sql`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/DAC/AdminMisc_DAC_GetDACPort.sql)  
 ## Database  
 ### Accessibility  
 [`Database_Accessibility_MultiUserSingleUserRestrictedUser.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_MultiUserSingleUserRestrictedUser.sql)  

@@ -1,0 +1,16 @@
+*************************************************************
+****************    Connect to the DAC   ********************
+*************************************************************
+
+SQLCMD:
+	sqlcmd -S YourServer\YourInstance -U sysadminMember -A
+
+SQL Server Management Studio (SSMS):
+	1. Click on "New Query"
+	2. Right-Clock query window
+	3. Mouse-over "Connection"
+	4. Click Connect... or Change Connection...
+	5. On the connection dialog, the parameters should be as follows:
+		a. Server Name: "admin:YourServer\YourInstance"
+		b. Login: must be a member of the sysadmin server role
+	6. Click Connect and your DAC should be established
