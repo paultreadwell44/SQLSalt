@@ -20,12 +20,16 @@
 ### Setup  
 [`DBMail_Setup_GmailForDBMail.txt`](https://github.com/trstringer/SQLSalt/blob/master/DBMail/Setup/DBMail_Setup_GmailForDBMail.txt)  
 ## Indexes  
+### Heaps  
+[`Indexes_Heaps_GetAllHeapsForDb.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Heaps/Indexes_Heaps_GetAllHeapsForDb.sql)  
 ### Physical  
+[`Indexes_Physical_GetRowsAndSpacePerIndex.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Physical_GetRowsAndSpacePerIndex.sql)  
 [`IndexFragmentationThreshold.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/IndexFragmentationThreshold.sql)  
 ### Usage  
-[`Index_Usage_GetUnusedIndexes.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Index_Usage_GetUnusedIndexes.sql)  
+[`Indexes_Usage_GetUnusedIndexes.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Indexes_Usage_GetUnusedIndexes.sql)  
 ## Instance  
 ### Databases  
+[`Instance_Databases_GetLogFileConsumptionForAllDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/Instance_Databases_GetLogFileConsumptionForAllDBs.sql)  
 [`RecoveryModel_GetNonFullRecoveryModelDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/RecoveryModel_GetNonFullRecoveryModelDBs.sql)  
 ### Storage  
 [`BufferPool_DataCache_TotalSizeOfDataPages.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_DataCache_TotalSizeOfDataPages.sql)  
