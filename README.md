@@ -48,6 +48,7 @@
 [`Recoverability_AttachDetach_AttachDbWithNoLogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/AttachDetach/Recoverability_AttachDetach_AttachDbWithNoLogFile.sql)  
 ### BackupRestore  
 [`BackupRestore_TestBackupDatabaseFromBackupFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/BackupRestore/BackupRestore_TestBackupDatabaseFromBackupFile.sql)  
+[`Recoverability_BackupRestore_BackupDatabase.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/BackupRestore/Recoverability_BackupRestore_BackupDatabase.sql)  
 ## Security  
 ### Triggers  
 [`LogonTrigger_1_CreateLoginAdmissionTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_1_CreateLoginAdmissionTable.sql)  
