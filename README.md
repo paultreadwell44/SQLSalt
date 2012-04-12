@@ -24,6 +24,7 @@
 [`Indexes_Heaps_GetAllHeapsForDb.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Heaps/Indexes_Heaps_GetAllHeapsForDb.sql)  
 ### Physical  
 [`Indexes_Physical_GetRowsAndSpacePerIndex.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Physical_GetRowsAndSpacePerIndex.sql)  
+[`Indexes_Structure_GetIndexedRowsAndIndexesForAllTables.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Structure_GetIndexedRowsAndIndexesForAllTables.sql)  
 [`IndexFragmentationThreshold.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/IndexFragmentationThreshold.sql)  
 ### Usage  
 [`Indexes_Usage_GetUnusedIndexes.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Indexes_Usage_GetUnusedIndexes.sql)  
