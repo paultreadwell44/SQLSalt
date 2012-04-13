@@ -23,8 +23,9 @@
 ### Heaps  
 [`Indexes_Heaps_GetAllHeapsForDb.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Heaps/Indexes_Heaps_GetAllHeapsForDb.sql)  
 ### Physical  
+[`Indexes_GetIndexesByTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_GetIndexesByTable.sql)  
 [`Indexes_Physical_GetRowsAndSpacePerIndex.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Physical_GetRowsAndSpacePerIndex.sql)  
-[`Indexes_Structure_GetIndexedRowsAndIndexesForAllTables.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Structure_GetIndexedRowsAndIndexesForAllTables.sql)  
+[`Indexes_Structure_GetIndexedColsForAllTables.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Structure_GetIndexedColsForAllTables.sql)  
 [`IndexFragmentationThreshold.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/IndexFragmentationThreshold.sql)  
 ### Usage  
 [`Indexes_Usage_GetUnusedIndexes.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Indexes_Usage_GetUnusedIndexes.sql)  
@@ -49,6 +50,9 @@
 ### BackupRestore  
 [`BackupRestore_TestBackupDatabaseFromBackupFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/BackupRestore/BackupRestore_TestBackupDatabaseFromBackupFile.sql)  
 [`Recoverability_BackupRestore_BackupDatabase.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/BackupRestore/Recoverability_BackupRestore_BackupDatabase.sql)  
+[`Recoverability_BackupRestore_RestoreDatabase.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/BackupRestore/Recoverability_BackupRestore_RestoreDatabase.sql)  
+### Corruption  
+[`Recoverability_Corruption_CorruptNCI_FOR_TESTING_ONLY.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/Corruption/Recoverability_Corruption_CorruptNCI_FOR_TESTING_ONLY.sql)  
 ## Security  
 ### Triggers  
 [`LogonTrigger_1_CreateLoginAdmissionTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_1_CreateLoginAdmissionTable.sql)  
