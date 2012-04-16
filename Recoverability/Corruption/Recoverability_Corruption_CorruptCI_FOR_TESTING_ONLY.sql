@@ -24,10 +24,10 @@ Notes:
 ***************************     CREATE DATABASE    *********************************
 Notes:
 	I have restored a copy of the Adventureworks2012 database and called it 
-	'AdventureWorks2012_CorruptNCI'.  This is going to be the database this test 
+	'AdventureWorks2012_CorruptCI'.  This is going to be the database this test 
 	uses to worked with corrupted data.
 ***********************************************************************************/
-use AdventureWorks2012_CorruptNCI
+use AdventureWorks2012_CorruptCI
 go
 
 /***********************************************************************************
@@ -42,6 +42,7 @@ from Person.EmailAddress
 
 
 -- get the indexes for this table
+declare @table_name as nvarchar(128) = 'EmailAddress'
 select
 	t.name as table_name,
 	i.name as index_name,
@@ -50,10 +51,10 @@ select
 from sys.indexes i
 inner join sys.tables t
 on i.object_id = t.object_id
-where t.name = 'EmailAddress'
+where t.name = @table_name
 order by i.index_id
 
--- the NCI we want to corrupt is IX_EmailAddress_EmailAddress (IndexID: 2)
+-- the NCI we want to corrupt is IX_EmailAddress_EmailAddress (IndexID: 1)
 
 
 /***********************************************************************************
@@ -63,23 +64,25 @@ Notes:
 	Get the index's page to corrupt, take db offline, and corrupt data in a hex 
 	editor
 ***********************************************************************************/
--- retrieve all page data for the index IX_EmailAddress_EmailAddress (IndexID: 2)
-dbcc ind('adventureworks2012_corruptnci', 'person.emailaddress', 2)
+-- retrieve all page data for the index IX_EmailAddress_EmailAddress (IndexID: 1)
+dbcc ind('AdventureWorks2012_CorruptCI', 'person.emailaddress', 1)
 go
--- page to corrupt - PagePID: 18250 [PageFID: 1]
-dbcc page('adventureworks2012_corruptnci', 1, 18250, 3)
+-- page to corrupt - PagePID: 644 [PageFID: 1]
+dbcc traceon(3604)
+go
+dbcc page('AdventureWorks2012_CorruptCI', 1, 644, 2)
 go
 
 
 -- get the page offset in the file
-select 18250 * 8192
--- page offset: 149504000
+select 644 * 8192
+-- page offset: 5275648
 
--- take AdventureWorks2012_CorruptNCI OFFLINE
+-- take AdventureWorks2012_CorruptCI OFFLINE
 use master
 go
 
-alter database AdventureWorks2012_CorruptNCI
+alter database AdventureWorks2012_CorruptCI
 set offline
 with rollback immediate
 go
@@ -90,7 +93,7 @@ select
 	name,
 	physical_name
 from sys.master_files
-where database_id = db_id('adventureworks2012_corruptnci')
+where database_id = db_id('AdventureWorks2012_CorruptCI')
 and type = 0
 
 
@@ -115,16 +118,16 @@ Notes:
 use master
 go
 
-alter database AdventureWorks2012_CorruptNCI
+alter database AdventureWorks2012_CorruptCI
 set online
 go
 
 
 -- prove the data corruption
-use AdventureWorks2012_CorruptNCI
+use AdventureWorks2012_CorruptCI
 go
 
-select EmailAddress
+select *
 from Person.EmailAddress
 
 -- should receive a similar error:
@@ -148,7 +151,16 @@ on o.object_id = p.object_id
 inner join sys.indexes i
 on o.object_id = i.object_id
 and p.index_id = i.index_id
-where partition_id = 72057594050445312
+where partition_id = 72057594045071360
+
+alter database AdventureWorks2012_CorruptCI
+set multi_user
+with rollback immediate
+go
+dbcc checkdb('AdventureWorks2012_CorruptCI', repair_allow_data_loss)
+go
+
+dbcc checkdb('AdventureWorks2012_CorruptCI') with no_infomsgs
 
 
 -- the corrupted data is a NONCLUSTERED INDEX... drop and recreate it
