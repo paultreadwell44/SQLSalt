@@ -57,6 +57,8 @@
 [`Recoverability_Corruption_CorruptCI_FOR_TESTING_ONLY.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/Corruption/Recoverability_Corruption_CorruptCI_FOR_TESTING_ONLY.sql)  
 [`Recoverability_Corruption_CorruptNCI_FOR_TESTING_ONLY.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/Corruption/Recoverability_Corruption_CorruptNCI_FOR_TESTING_ONLY.sql)  
 ## Security  
+### Principals  
+[`Security_Principals_GetInstanceLogins.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_GetInstanceLogins.sql)  
 ### Triggers  
 [`LogonTrigger_1_CreateLoginAdmissionTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_1_CreateLoginAdmissionTable.sql)  
 [`LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql)  
