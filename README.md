@@ -30,6 +30,8 @@
 ### Usage  
 [`Indexes_Usage_GetUnusedIndexes.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Indexes_Usage_GetUnusedIndexes.sql)  
 ## Instance  
+### Connectivity  
+[`Instance_Connectivity_CurrentConnectionInfoWithSqlText.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Connectivity/Instance_Connectivity_CurrentConnectionInfoWithSqlText.sql)  
 ### Databases  
 [`Instance_Databases_GetLogFileConsumptionForAllDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/Instance_Databases_GetLogFileConsumptionForAllDBs.sql)  
 [`RecoveryModel_GetNonFullRecoveryModelDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/RecoveryModel_GetNonFullRecoveryModelDBs.sql)  
