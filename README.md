@@ -19,6 +19,9 @@
 ## DBMail  
 ### Setup  
 [`DBMail_Setup_GmailForDBMail.txt`](https://github.com/trstringer/SQLSalt/blob/master/DBMail/Setup/DBMail_Setup_GmailForDBMail.txt)  
+## ExtendedEvents  
+### Performance  
+[`XE_Performance_SlowSQLStmts.sql`](https://github.com/trstringer/SQLSalt/blob/master/ExtendedEvents/Performance/XE_Performance_SlowSQLStmts.sql)  
 ## Indexes  
 ### Heaps  
 [`Indexes_Heaps_GetAllHeapsForDb.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Heaps/Indexes_Heaps_GetAllHeapsForDb.sql)  
