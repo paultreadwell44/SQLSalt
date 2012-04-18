@@ -46,6 +46,11 @@
 [`WaitStatsExplained_1_CreateTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_1_CreateTable.sql)  
 [`WaitStatsExplained_2_CreateProc.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_2_CreateProc.sql)  
 [`WaitStats_CurrentUserWaits.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStats_CurrentUserWaits.sql)  
+## PBM  
+### Conditions  
+[`PBM_Conditions_GetUserCreatedConditions.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/Conditions/PBM_Conditions_GetUserCreatedConditions.sql)  
+### Facets  
+[`PBM_Facets_PossibleEvaluationModesPerFacet.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/Facets/PBM_Facets_PossibleEvaluationModesPerFacet.sql)  
 ## Recoverability  
 ### AttachDetach  
 [`Recoverability_AttachDetach_AttachDbWithNoLogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/AttachDetach/Recoverability_AttachDetach_AttachDbWithNoLogFile.sql)  
