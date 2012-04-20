@@ -68,6 +68,9 @@
 [`Recoverability_BackupRestore_RestoreDatabase.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/BackupRestore/Recoverability_BackupRestore_RestoreDatabase.sql)  
 ### Corruption  
 [`Recoverability_Corruption_CorruptNCI_FOR_TESTING_ONLY.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/Corruption/Recoverability_Corruption_CorruptNCI_FOR_TESTING_ONLY.sql)  
+### Snapshots  
+[`Recoverability_Snapshots_CreateSnapshot.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/Snapshots/Recoverability_Snapshots_CreateSnapshot.sql)  
+[`Recoverability_Snapshots_RevertToSnapshot.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/Snapshots/Recoverability_Snapshots_RevertToSnapshot.sql)  
 ## Security  
 ### Principals  
 [`Security_Principals_GetInstanceLogins.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_GetInstanceLogins.sql)  
