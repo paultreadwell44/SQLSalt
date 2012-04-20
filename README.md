@@ -20,6 +20,8 @@
 ### Setup  
 [`DBMail_Setup_GmailForDBMail.txt`](https://github.com/trstringer/SQLSalt/blob/master/DBMail/Setup/DBMail_Setup_GmailForDBMail.txt)  
 ## ExtendedEvents  
+### Misc  
+[`XE_Misc_ReadXELogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/ExtendedEvents/Misc/XE_Misc_ReadXELogFile.sql)  
 ### Performance  
 [`XE_Performance_SlowSQLStmts.sql`](https://github.com/trstringer/SQLSalt/blob/master/ExtendedEvents/Performance/XE_Performance_SlowSQLStmts.sql)  
 ## Indexes  
@@ -46,9 +48,12 @@
 [`BufferPool_PlanCache_RecompileProc.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_RecompileProc.sql)  
 [`BufferPool_PlanCache_StoredProcsForDB.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_StoredProcsForDB.sql)  
 ### Waits  
+[`Instance_Waits_CurrentUserWaits.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/Instance_Waits_CurrentUserWaits.sql)  
 [`WaitStatsExplained_1_CreateTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_1_CreateTable.sql)  
 [`WaitStatsExplained_2_CreateProc.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_2_CreateProc.sql)  
-[`WaitStats_CurrentUserWaits.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStats_CurrentUserWaits.sql)  
+## IO  
+### Performance  
+[`IO_Performance_DatabaseFilesStallDurationsBytesReadWritten.sql`](https://github.com/trstringer/SQLSalt/blob/master/IO/Performance/IO_Performance_DatabaseFilesStallDurationsBytesReadWritten.sql)  
 ## PBM  
 ### Conditions  
 [`PBM_Conditions_GetUserCreatedConditions.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/Conditions/PBM_Conditions_GetUserCreatedConditions.sql)  
