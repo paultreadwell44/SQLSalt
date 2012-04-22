@@ -19,11 +19,6 @@
 ## DBMail  
 ### Setup  
 [`DBMail_Setup_GmailForDBMail.txt`](https://github.com/trstringer/SQLSalt/blob/master/DBMail/Setup/DBMail_Setup_GmailForDBMail.txt)  
-## ExtendedEvents  
-### Misc  
-[`XE_Misc_ReadXELogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/ExtendedEvents/Misc/XE_Misc_ReadXELogFile.sql)  
-### Performance  
-[`XE_Performance_SlowSQLStmts.sql`](https://github.com/trstringer/SQLSalt/blob/master/ExtendedEvents/Performance/XE_Performance_SlowSQLStmts.sql)  
 ## Indexes  
 ### Heaps  
 [`Indexes_Heaps_GetAllHeapsForDb.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Heaps/Indexes_Heaps_GetAllHeapsForDb.sql)  
@@ -71,6 +66,9 @@
 ### Snapshots  
 [`Recoverability_Snapshots_CreateSnapshot.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/Snapshots/Recoverability_Snapshots_CreateSnapshot.sql)  
 [`Recoverability_Snapshots_RevertToSnapshot.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/Snapshots/Recoverability_Snapshots_RevertToSnapshot.sql)  
+## RI  
+### FK  
+[`RI_FK_GetFkReferences.sql`](https://github.com/trstringer/SQLSalt/blob/master/RI/FK/RI_FK_GetFkReferences.sql)  
 ## Security  
 ### Principals  
 [`Security_Principals_GetInstanceLogins.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_GetInstanceLogins.sql)  
@@ -78,3 +76,8 @@
 [`LogonTrigger_1_CreateLoginAdmissionTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_1_CreateLoginAdmissionTable.sql)  
 [`LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql)  
 [`LogonTrigger_3_CreateLogonTrigger.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_3_CreateLogonTrigger.sql)  
+## XE  
+### Misc  
+[`XE_Misc_ReadXELogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/XE/Misc/XE_Misc_ReadXELogFile.sql)  
+### Performance  
+[`XE_Performance_SlowSQLStmts.sql`](https://github.com/trstringer/SQLSalt/blob/master/XE/Performance/XE_Performance_SlowSQLStmts.sql)  
