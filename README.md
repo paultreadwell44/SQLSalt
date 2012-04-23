@@ -13,6 +13,8 @@
 [`Database_Accessibility_OnlineOfflineEmergency.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_OnlineOfflineEmergency.sql)  
 [`Database_Accessibility_ReadOnlyReadWrite.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_ReadOnlyReadWrite.sql)  
 [`Database_Accessibility_StateForAllDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_StateForAllDBs.sql)  
+### Objects  
+[`Database_Objects_GetPartitionDetails.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_GetPartitionDetails.sql)  
 ### Storage  
 [`TableSpace_GetSpaceAndPagesByUserTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesByUserTable.sql)  
 [`TableSpace_GetSpaceAndPagesForAllUserTables.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesForAllUserTables.sql)  
