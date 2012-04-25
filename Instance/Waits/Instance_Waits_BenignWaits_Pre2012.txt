@@ -1,7 +1,7 @@
 *** BENIGN WAIT TYPES ***
 
 Courtesy and Property of: 
-	Jonathan Keheyias (@SQLPoolBoy)
+	Jonathan Kehayias (@SQLPoolBoy)
 Notes:
 	This is specific for SQL Server 2008 R2 and below
 
