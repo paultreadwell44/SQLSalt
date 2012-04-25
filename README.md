@@ -45,6 +45,8 @@
 [`BufferPool_PlanCache_RecompileProc.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_RecompileProc.sql)  
 [`BufferPool_PlanCache_StoredProcsForDB.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_StoredProcsForDB.sql)  
 ### Waits  
+[`Instance_Waits_BenignWaits_Pre2012.txt`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/Instance_Waits_BenignWaits_Pre2012.txt)  
+[`Instance_Waits_CurrentBlockedRequests.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/Instance_Waits_CurrentBlockedRequests.sql)  
 [`Instance_Waits_CurrentUserWaits.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/Instance_Waits_CurrentUserWaits.sql)  
 [`WaitStatsExplained_1_CreateTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_1_CreateTable.sql)  
 [`WaitStatsExplained_2_CreateProc.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/WaitStatsExplained_2_CreateProc.sql)  
@@ -73,6 +75,8 @@
 [`RI_FK_GetFkReferences.sql`](https://github.com/trstringer/SQLSalt/blob/master/RI/FK/RI_FK_GetFkReferences.sql)  
 ## Security  
 ### Principals  
+[`Security_Principals_DatabaseAddRoleMember_2012.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_DatabaseAddRoleMember_2012.sql)  
+[`Security_Principals_DatabaseAddRoleMember_Pre2012.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_DatabaseAddRoleMember_Pre2012.sql)  
 [`Security_Principals_GetInstanceLogins.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_GetInstanceLogins.sql)  
 ### Triggers  
 [`LogonTrigger_1_CreateLoginAdmissionTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_1_CreateLoginAdmissionTable.sql)  
