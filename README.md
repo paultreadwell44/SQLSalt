@@ -7,6 +7,8 @@
 [`AdminMisc_DAC_ConnectToDAC.txt`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/DAC/AdminMisc_DAC_ConnectToDAC.txt)  
 [`AdminMisc_DAC_EnableRemoteDAC.sql`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/DAC/AdminMisc_DAC_EnableRemoteDAC.sql)  
 [`AdminMisc_DAC_GetDACPort.sql`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/DAC/AdminMisc_DAC_GetDACPort.sql)  
+### Misc  
+[`AdminMisc_Misc_ConnectToLockedOutInstance.txt`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/Misc/AdminMisc_Misc_ConnectToLockedOutInstance.txt)  
 ## Database  
 ### Accessibility  
 [`Database_Accessibility_MultiUserSingleUserRestrictedUser.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_MultiUserSingleUserRestrictedUser.sql)  
@@ -58,6 +60,8 @@
 [`PBM_Conditions_GetUserCreatedConditions.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/Conditions/PBM_Conditions_GetUserCreatedConditions.sql)  
 ### Facets  
 [`PBM_Facets_PossibleEvaluationModesPerFacet.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/Facets/PBM_Facets_PossibleEvaluationModesPerFacet.sql)  
+### UsefulPolicies  
+[`PBM_UsefulPolicies_AutoCloseOff.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/UsefulPolicies/PBM_UsefulPolicies_AutoCloseOff.sql)  
 ## Recoverability  
 ### AttachDetach  
 [`Recoverability_AttachDetach_AttachDbWithNoLogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/AttachDetach/Recoverability_AttachDetach_AttachDbWithNoLogFile.sql)  
@@ -83,6 +87,11 @@
 [`LogonTrigger_1_CreateLoginAdmissionTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_1_CreateLoginAdmissionTable.sql)  
 [`LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql)  
 [`LogonTrigger_3_CreateLogonTrigger.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_3_CreateLogonTrigger.sql)  
+## SQLServerAgent  
+### Alerts  
+[`SQLServerAgent_Alerts_CreateAlertsSeverError.sql`](https://github.com/trstringer/SQLSalt/blob/master/SQLServerAgent/Alerts/SQLServerAgent_Alerts_CreateAlertsSeverError.sql)  
+### Operators  
+[`SQLServerAgent_Operators_CreateOperatorWithEmail.sql`](https://github.com/trstringer/SQLSalt/blob/master/SQLServerAgent/Operators/SQLServerAgent_Operators_CreateOperatorWithEmail.sql)  
 ## XE  
 ### Misc  
 [`XE_Misc_ReadXELogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/XE/Misc/XE_Misc_ReadXELogFile.sql)  

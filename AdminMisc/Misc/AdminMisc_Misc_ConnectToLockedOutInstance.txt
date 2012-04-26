@@ -1,0 +1,21 @@
+**** Connect to SQL Server Instance if you are Locked Out ****
+
+1. Stop the SQL Server service (SSCM)
+2. Start SQL Server in single-user mode
+	a. this is accomplished with the -m option
+3. Connect to the instance with a trusted connection
+	a. NOTE: you must be a local admin on the server
+4. Alleviate the issue
+	a. one way is to create another login with sysadmin
+	rights, as follows:
+
+create login NewSaLogin with password = '....'
+go
+
+exec sp_addsrvrolemember 'NewSaLogin', 'sysadmin'
+go
+
+5. Stop the SQL Server services (SSCM)
+6. Take off the single-user mode switch for the instance
+7. Start SQL Server services and connect with new sysadmin
+login
