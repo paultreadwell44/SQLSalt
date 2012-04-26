@@ -90,6 +90,7 @@
 ## SQLServerAgent  
 ### Alerts  
 [`SQLServerAgent_Alerts_CreateAlertsSeverError.sql`](https://github.com/trstringer/SQLSalt/blob/master/SQLServerAgent/Alerts/SQLServerAgent_Alerts_CreateAlertsSeverError.sql)  
+[`SQLServerAgent_Alerts_GetRecentTriggeredAlerts.sql`](https://github.com/trstringer/SQLSalt/blob/master/SQLServerAgent/Alerts/SQLServerAgent_Alerts_GetRecentTriggeredAlerts.sql)  
 ### Operators  
 [`SQLServerAgent_Operators_CreateOperatorWithEmail.sql`](https://github.com/trstringer/SQLSalt/blob/master/SQLServerAgent/Operators/SQLServerAgent_Operators_CreateOperatorWithEmail.sql)  
 ## XE  
