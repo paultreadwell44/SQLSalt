@@ -9,6 +9,11 @@
 [`AdminMisc_DAC_GetDACPort.sql`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/DAC/AdminMisc_DAC_GetDACPort.sql)  
 ### Misc  
 [`AdminMisc_Misc_ConnectToLockedOutInstance.txt`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/Misc/AdminMisc_Misc_ConnectToLockedOutInstance.txt)  
+## CentralManagementServers  
+### ServerGroups  
+[`CMS_ServerGroups_CreateNewServerGroup.sql`](https://github.com/trstringer/SQLSalt/blob/master/CentralManagementServers/ServerGroups/CMS_ServerGroups_CreateNewServerGroup.sql)  
+### Servers  
+[`CMS_Servers_RegisterServer.sql`](https://github.com/trstringer/SQLSalt/blob/master/CentralManagementServers/Servers/CMS_Servers_RegisterServer.sql)  
 ## Database  
 ### Accessibility  
 [`Database_Accessibility_MultiUserSingleUserRestrictedUser.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_MultiUserSingleUserRestrictedUser.sql)  
