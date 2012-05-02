@@ -70,6 +70,9 @@
 [`PBM_Facets_PossibleEvaluationModesPerFacet.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/Facets/PBM_Facets_PossibleEvaluationModesPerFacet.sql)  
 ### UsefulPolicies  
 [`PBM_UsefulPolicies_AutoCloseOff.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/UsefulPolicies/PBM_UsefulPolicies_AutoCloseOff.sql)  
+## PowerShell  
+### PerfMonStarter  
+[`PerfMonStarter.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/PerfMonStarter/PerfMonStarter.ps1)  
 ## Recoverability  
 ### AttachDetach  
 [`Recoverability_AttachDetach_AttachDbWithNoLogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/AttachDetach/Recoverability_AttachDetach_AttachDbWithNoLogFile.sql)  
