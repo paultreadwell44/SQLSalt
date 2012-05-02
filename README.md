@@ -45,6 +45,8 @@
 ### Databases  
 [`Instance_Databases_GetLogFileConsumptionForAllDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/Instance_Databases_GetLogFileConsumptionForAllDBs.sql)  
 [`RecoveryModel_GetNonFullRecoveryModelDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/RecoveryModel_GetNonFullRecoveryModelDBs.sql)  
+### GeneralConfig  
+[`Instance_GeneralConfig_GetMaxErrorLogCount.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/GeneralConfig/Instance_GeneralConfig_GetMaxErrorLogCount.sql)  
 ### Storage  
 [`BufferPool_DataCache_TotalSizeOfDataPages.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_DataCache_TotalSizeOfDataPages.sql)  
 [`BufferPool_PlanCache_ClearAdHocPlans.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_ClearAdHocPlans.sql)  
