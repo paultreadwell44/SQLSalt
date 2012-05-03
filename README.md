@@ -9,6 +9,7 @@
 [`AdminMisc_DAC_GetDACPort.sql`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/DAC/AdminMisc_DAC_GetDACPort.sql)  
 ### Misc  
 [`AdminMisc_Misc_ConnectToLockedOutInstance.txt`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/Misc/AdminMisc_Misc_ConnectToLockedOutInstance.txt)  
+[`AdminMisc_Misc_ReadErrorLogToTempTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/Misc/AdminMisc_Misc_ReadErrorLogToTempTable.sql)  
 ## CentralManagementServers  
 ### ServerGroups  
 [`CMS_ServerGroups_CreateNewServerGroup.sql`](https://github.com/trstringer/SQLSalt/blob/master/CentralManagementServers/ServerGroups/CMS_ServerGroups_CreateNewServerGroup.sql)  
@@ -47,6 +48,7 @@
 [`RecoveryModel_GetNonFullRecoveryModelDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/RecoveryModel_GetNonFullRecoveryModelDBs.sql)  
 ### GeneralConfig  
 [`Instance_GeneralConfig_GetMaxErrorLogCount.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/GeneralConfig/Instance_GeneralConfig_GetMaxErrorLogCount.sql)  
+[`Instance_GeneralConfig_ServiceAccounts.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/GeneralConfig/Instance_GeneralConfig_ServiceAccounts.sql)  
 ### Storage  
 [`BufferPool_DataCache_TotalSizeOfDataPages.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_DataCache_TotalSizeOfDataPages.sql)  
 [`BufferPool_PlanCache_ClearAdHocPlans.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_ClearAdHocPlans.sql)  
