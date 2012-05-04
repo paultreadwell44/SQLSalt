@@ -9,41 +9,65 @@
 # Parameters
 #	-inf "C:\SomeDir\my_counters.text" 
 #		[the text file containing the perfmon counter list]
-#	-logloc "C:\SomeDir\my_log"
-#		[the path to the log file that will be created
-#	-colname "my_collector"
+#
+#	[-mach "remoteMachineName"]
+#		[the name of the remote machine to create set on (optional)]
+#
+#	[-logloc "C:\SomeDir\my_log"]
+#		[the path to the log file that will be created (optional)]
+
+#	[-colname "my_collector"]
 #		[new collector's name (optional)]
 
 param
 (
+	[string]$mach,
 	[string]$inf,
 	[string]$logloc,
 	[string]$colname
 )
 
-$perfmonCounters = Get-Content $inf
 
-write-host "Loading Counters..."
-$perfmonCounters + [Environment]::NewLine
+# <DEFAULTS>	[alter to environment specs]
+$sampleInterval = 5
+$defaultLogLocation = "C:\DefaultDir\Default_log"
+# </DEFAULTS>
 
-Write-Host "Log File location..."
-$logloc
 
-if($colname -eq "")
-{
+# check to see if input parameters were filled
+if ($inf -eq "") {
+	Write-Host "ERROR!!!  -inf must be set to counter file"
+	exit 1
+}
+
+# if the machine name wasn't supplied, use local
+if ($mach -eq "") {
+	$mach = "localhost"
+}
+
+# if log location wasn't supplised, use default
+if ($logloc -eq "") {
+	$logloc = $defaultLogLocation
+}
+
+# if no collector name specified, generate one
+if($colname -eq "") {
 	$dataCollectorName = "pfs_" + [datetime]::Now.Ticks
 }
-else
-{
+else {
 	$dataCollectorName = $colname
 }
-$dataCollectorName
-
-Write-Host "Attempting to create counter..."
-logman create counter $dataCollectorName -v mmddhhmm -c $perfmonCounters -o $logloc -f csv 
-Write-Host "Success"
+Write-Host "Collection Name: " $dataCollectorName
 Write-Host
 
-Write-Host "Attempting to start counter..."
-logman start $dataCollectorName
-Write-Host "Success"
+Write-Host "Log File location..."
+Write-Host $logloc
+
+# create the collection and start it
+Write-Host
+Write-Host "Attempting to create collector set..."
+logman create counter $dataCollectorName -s $mach -v mmddhhmm -cf $inf -o $logloc -f csv -si $sampleInterval
+Write-Host
+
+Write-Host "Attempting to start collector set..."
+logman start $dataCollectorName -s $mach
