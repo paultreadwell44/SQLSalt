@@ -29,6 +29,9 @@
 ## DBMail  
 ### Setup  
 [`DBMail_Setup_GmailForDBMail.txt`](https://github.com/trstringer/SQLSalt/blob/master/DBMail/Setup/DBMail_Setup_GmailForDBMail.txt)  
+## DML  
+### Delete  
+[`DML_Delete_DeleteLargeDataByBatches.sql`](https://github.com/trstringer/SQLSalt/blob/master/DML/Delete/DML_Delete_DeleteLargeDataByBatches.sql)  
 ## Indexes  
 ### Heaps  
 [`Indexes_Heaps_GetAllHeapsForDb.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Heaps/Indexes_Heaps_GetAllHeapsForDb.sql)  
@@ -56,6 +59,7 @@
 [`BufferPool_PlanCache_CountsByObjType.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_CountsByObjType.sql)  
 [`BufferPool_PlanCache_RecompileProc.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_RecompileProc.sql)  
 [`BufferPool_PlanCache_StoredProcsForDB.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_StoredProcsForDB.sql)  
+[`BufferPool_PlanCache_StoredProcsLastCompiled.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_StoredProcsLastCompiled.sql)  
 [`BufferPool_Storage_PlanCacheDataCacheSizeByDB.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_Storage_PlanCacheDataCacheSizeByDB.sql)  
 ### Waits  
 [`Instance_Waits_BenignWaits_Pre2012.txt`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Waits/Instance_Waits_BenignWaits_Pre2012.txt)  
