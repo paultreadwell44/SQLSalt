@@ -22,8 +22,10 @@
 [`Database_Accessibility_ReadOnlyReadWrite.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_ReadOnlyReadWrite.sql)  
 [`Database_Accessibility_StateForAllDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_StateForAllDBs.sql)  
 ### Objects  
+[`Database_Objects_ChangeOwnership.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_ChangeOwnership.sql)  
 [`Database_Objects_CreateTableVar.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_CreateTableVar.sql)  
 [`Database_Objects_CreateTempTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_CreateTempTable.sql)  
+[`Database_Objects_GetObjectOwnership.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_GetObjectOwnership.sql)  
 [`Database_Objects_GetPartitionDetails.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_GetPartitionDetails.sql)  
 ### Storage  
 [`TableSpace_GetSpaceAndPagesByUserTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesByUserTable.sql)  
@@ -99,7 +101,10 @@
 ### FK  
 [`RI_FK_GetFkReferences.sql`](https://github.com/trstringer/SQLSalt/blob/master/RI/FK/RI_FK_GetFkReferences.sql)  
 ## Security  
+### Certificates  
+[`Security_Certificates_CreateCertEncryptWithPassword.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Certificates/Security_Certificates_CreateCertEncryptWithPassword.sql)  
 ### Principals  
+[`Security_Principals_CreateLoginlessUser.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_CreateLoginlessUser.sql)  
 [`Security_Principals_DatabaseAddRoleMember_2012.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_DatabaseAddRoleMember_2012.sql)  
 [`Security_Principals_DatabaseAddRoleMember_Pre2012.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_DatabaseAddRoleMember_Pre2012.sql)  
 [`Security_Principals_GetInstanceLogins.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Principals/Security_Principals_GetInstanceLogins.sql)  
