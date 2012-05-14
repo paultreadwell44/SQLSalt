@@ -57,6 +57,7 @@
 [`Instance_GeneralConfig_GetMaxErrorLogCount.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/GeneralConfig/Instance_GeneralConfig_GetMaxErrorLogCount.sql)  
 [`Instance_GeneralConfig_ServiceAccounts.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/GeneralConfig/Instance_GeneralConfig_ServiceAccounts.sql)  
 ### LocksLatches  
+[`Instance_Locks_DeadlockInfoToErrorLog.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/LocksLatches/Instance_Locks_DeadlockInfoToErrorLog.sql)  
 [`Instance_Locks_InstanceLocksSummary.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/LocksLatches/Instance_Locks_InstanceLocksSummary.sql)  
 ### Storage  
 [`BufferPool_DataCache_TotalSizeOfDataPages.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_DataCache_TotalSizeOfDataPages.sql)  
