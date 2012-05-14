@@ -59,6 +59,7 @@
 ### LocksLatches  
 [`Instance_Locks_DeadlockInfoToErrorLog.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/LocksLatches/Instance_Locks_DeadlockInfoToErrorLog.sql)  
 [`Instance_Locks_InstanceLocksSummary.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/LocksLatches/Instance_Locks_InstanceLocksSummary.sql)  
+[`Instance_Locks_LockEscalationDisable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/LocksLatches/Instance_Locks_LockEscalationDisable.sql)  
 ### Storage  
 [`BufferPool_DataCache_TotalSizeOfDataPages.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_DataCache_TotalSizeOfDataPages.sql)  
 [`BufferPool_PlanCache_ClearAdHocPlans.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Storage/BufferPool_PlanCache_ClearAdHocPlans.sql)  
