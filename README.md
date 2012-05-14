@@ -43,9 +43,12 @@
 [`Indexes_GetIndexesByTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_GetIndexesByTable.sql)  
 [`Indexes_Physical_GetFragmentationBasedOnPageCount.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Physical_GetFragmentationBasedOnPageCount.sql)  
 [`Indexes_Physical_GetRowsAndSpacePerIndex.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Physical_GetRowsAndSpacePerIndex.sql)  
+[`Indexes_Physical_IndexFragmentationSummary.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Physical_IndexFragmentationSummary.sql)  
+[`Indexes_Physical_RebuildReorganize.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Physical_RebuildReorganize.sql)  
 [`Indexes_Structure_GetIndexedColsForAllTables.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/Indexes_Structure_GetIndexedColsForAllTables.sql)  
 [`IndexFragmentationThreshold.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Physical/IndexFragmentationThreshold.sql)  
 ### Usage  
+[`Indexes_Usage_GetIndexUsageStats.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Indexes_Usage_GetIndexUsageStats.sql)  
 [`Indexes_Usage_GetUnusedIndexes.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Indexes_Usage_GetUnusedIndexes.sql)  
 ## Instance  
 ### Connectivity  
