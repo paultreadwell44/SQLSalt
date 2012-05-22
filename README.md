@@ -90,8 +90,12 @@
 ### UsefulPolicies  
 [`PBM_UsefulPolicies_AutoCloseOff.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/UsefulPolicies/PBM_UsefulPolicies_AutoCloseOff.sql)  
 ## PowerShell  
+### EventLog  
+[`PowerShell_EventLog_GetSQLErrors.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/EventLog/PowerShell_EventLog_GetSQLErrors.ps1)  
 ### PerfMonStarter  
 [`PerfMonStarter.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/PerfMonStarter/PerfMonStarter.ps1)  
+### Services  
+[`PowerShell_Services_GetStoppedSQLServices.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Services/PowerShell_Services_GetStoppedSQLServices.ps1)  
 ## Recoverability  
 ### AttachDetach  
 [`Recoverability_AttachDetach_AttachDbWithNoLogFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Recoverability/AttachDetach/Recoverability_AttachDetach_AttachDbWithNoLogFile.sql)  
