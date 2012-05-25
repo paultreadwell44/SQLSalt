@@ -29,6 +29,7 @@
 [`Database_Objects_GetPartitionDetails.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_GetPartitionDetails.sql)  
 [`Database_Objects_SparseColumnCreate.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_SparseColumnCreate.sql)  
 ### Storage  
+[`Database_Storage_DbFileSpaceUsageStats.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/Database_Storage_DbFileSpaceUsageStats.sql)  
 [`TableSpace_GetSpaceAndPagesByUserTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesByUserTable.sql)  
 [`TableSpace_GetSpaceAndPagesForAllUserTables.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesForAllUserTables.sql)  
 ## DBMail  
