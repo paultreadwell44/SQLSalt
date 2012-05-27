@@ -93,6 +93,8 @@
 ## PowerShell  
 ### EventLog  
 [`PowerShell_EventLog_GetSQLErrors.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/EventLog/PowerShell_EventLog_GetSQLErrors.ps1)  
+### Modules  
+[`PowerShell_Modules_GetAvailableModules.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Modules/PowerShell_Modules_GetAvailableModules.ps1)  
 ### PerfMonStarter  
 [`PerfMonStarter.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/PerfMonStarter/PerfMonStarter.ps1)  
 ### Services  
