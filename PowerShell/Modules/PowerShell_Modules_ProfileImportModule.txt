@@ -1,0 +1,23 @@
+*** STEPS TO IMPORT A MODULE FOR A PROFILE ***
+
+1. Get the location of your profile script file by viewing the $PROFILE variable
+2. Open the *.ps1 file at the above location
+3. Add the following code to the profile script:
+	Import-Module YourModuleName
+
+4. Modules are stored in the paths specified in the environment variable Env:\PSModulePath
+5. Add a module path to the environment variable
+	a. $psModPath = (Get-Item Env:\PSModulePath).Value
+	b. Set-Item Env:\PSModulePath -Value ($psModPath + ";C:\NewRootModuleDir\")
+
+NOTE: The root module path will contain folders for each module containing a *.psm1 module file
+with the same exact name as the module folder.
+
+Example directory structure:
+
+C:\PowerShellModules
+	\Module1
+		Module1.psm1
+	\Module2
+		Module2.psm1
+		Module2.psd1
