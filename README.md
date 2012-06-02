@@ -99,6 +99,8 @@
 [`PowerShell_Modules_ProfileImportModule.txt`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Modules/PowerShell_Modules_ProfileImportModule.txt)  
 ### PerfMonStarter  
 [`PerfMonStarter.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/PerfMonStarter/PerfMonStarter.ps1)  
+### Processes  
+[`PowerShell_Processes_GetTopMemoryConsumingProcesses.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Processes/PowerShell_Processes_GetTopMemoryConsumingProcesses.ps1)  
 ### Services  
 [`PowerShell_Services_GetNonAutomaticSQLServices.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Services/PowerShell_Services_GetNonAutomaticSQLServices.ps1)  
 [`PowerShell_Services_GetStoppedSQLServices.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Services/PowerShell_Services_GetStoppedSQLServices.ps1)  
