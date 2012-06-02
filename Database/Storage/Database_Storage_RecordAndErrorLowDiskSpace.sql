@@ -122,7 +122,7 @@ as
 
 	if @current_min_space_mb <= @low_space_threshold_mb
 		begin
-			raiserror(50001, 0, 0);
+			raiserror(50001, 17, 0);
 		end
 go
 -- ****************************************************************
