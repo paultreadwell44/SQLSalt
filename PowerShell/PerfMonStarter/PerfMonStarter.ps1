@@ -21,7 +21,7 @@
 
 param
 (
-	[string]$mach,
+	[string]$mach = "localhost",
 	[string]$inf,
 	[string]$logloc,
 	[string]$colname
@@ -38,11 +38,6 @@ $defaultLogLocation = "C:\DefaultDir\Default_log"
 if ($inf -eq "") {
 	Write-Host "ERROR!!!  -inf must be set to counter file"
 	exit 1
-}
-
-# if the machine name wasn't supplied, use local
-if ($mach -eq "") {
-	$mach = "localhost"
 }
 
 # if log location wasn't supplised, use default
