@@ -21,6 +21,8 @@
 [`Database_Accessibility_OnlineOfflineEmergency.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_OnlineOfflineEmergency.sql)  
 [`Database_Accessibility_ReadOnlyReadWrite.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_ReadOnlyReadWrite.sql)  
 [`Database_Accessibility_StateForAllDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Accessibility/Database_Accessibility_StateForAllDBs.sql)  
+### FileStream  
+[`Database_FileStream_EnableFileStream.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/FileStream/Database_FileStream_EnableFileStream.sql)  
 ### Objects  
 [`Database_Objects_ChangeOwnership.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_ChangeOwnership.sql)  
 [`Database_Objects_CreateTableVar.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_CreateTableVar.sql)  
