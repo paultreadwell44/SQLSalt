@@ -10,6 +10,7 @@
 ### Misc  
 [`AdminMisc_Misc_ConnectToLockedOutInstance.txt`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/Misc/AdminMisc_Misc_ConnectToLockedOutInstance.txt)  
 [`AdminMisc_Misc_ReadErrorLogToTempTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/Misc/AdminMisc_Misc_ReadErrorLogToTempTable.sql)  
+[`AdminMisc_Misc_TraceFlags.txt`](https://github.com/trstringer/SQLSalt/blob/master/AdminMisc/Misc/AdminMisc_Misc_TraceFlags.txt)  
 ## CentralManagementServers  
 ### ServerGroups  
 [`CMS_ServerGroups_CreateNewServerGroup.sql`](https://github.com/trstringer/SQLSalt/blob/master/CentralManagementServers/ServerGroups/CMS_ServerGroups_CreateNewServerGroup.sql)  
@@ -32,6 +33,7 @@
 [`Database_Objects_SparseColumnCreate.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Objects/Database_Objects_SparseColumnCreate.sql)  
 ### Storage  
 [`Database_Storage_DbFileSpaceUsageStats.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/Database_Storage_DbFileSpaceUsageStats.sql)  
+[`Database_Storage_MoveDatabaseFile.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/Database_Storage_MoveDatabaseFile.sql)  
 [`Database_Storage_RecordAndErrorLowDiskSpace.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/Database_Storage_RecordAndErrorLowDiskSpace.sql)  
 [`TableSpace_GetSpaceAndPagesByUserTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesByUserTable.sql)  
 [`TableSpace_GetSpaceAndPagesForAllUserTables.sql`](https://github.com/trstringer/SQLSalt/blob/master/Database/Storage/TableSpace_GetSpaceAndPagesForAllUserTables.sql)  
@@ -94,6 +96,8 @@
 ### UsefulPolicies  
 [`PBM_UsefulPolicies_AutoCloseOff.sql`](https://github.com/trstringer/SQLSalt/blob/master/PBM/UsefulPolicies/PBM_UsefulPolicies_AutoCloseOff.sql)  
 ## PowerShell  
+### Databases  
+[`PowerShell_Databases_GetDbOwner.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Databases/PowerShell_Databases_GetDbOwner.ps1)  
 ### EventLog  
 [`PowerShell_EventLog_GetSQLErrors.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/EventLog/PowerShell_EventLog_GetSQLErrors.ps1)  
 ### Hardware  

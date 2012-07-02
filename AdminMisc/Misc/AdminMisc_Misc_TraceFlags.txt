@@ -1,0 +1,12 @@
+SQL Server Trace Flags
+
+G: Global
+S: Session
+
+
+1204 - (G) 	deadlock info
+1211 - (G,S)	disable lock escalation (due to both memory pressure and lock count)
+1222 - (G)	XML formatted deadlock info
+1224 - (G,S)	disable lock escalation (due to lock count, but memory pressure will still cause escalation)
+3604 - (G,S)	sends trace output to the client
+3605 - (G,S)	sends trace output to the error log
