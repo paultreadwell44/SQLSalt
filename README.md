@@ -59,6 +59,7 @@
 [`Indexes_Usage_GetUnusedIndexes.sql`](https://github.com/trstringer/SQLSalt/blob/master/Indexes/Usage/Indexes_Usage_GetUnusedIndexes.sql)  
 ## Instance  
 ### Connectivity  
+[`Instance_Connectivity_CurrentConnectionEndPoints.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Connectivity/Instance_Connectivity_CurrentConnectionEndPoints.sql)  
 [`Instance_Connectivity_CurrentConnectionInfoWithSqlText.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Connectivity/Instance_Connectivity_CurrentConnectionInfoWithSqlText.sql)  
 ### Databases  
 [`Instance_Databases_GetLogFileConsumptionForAllDBs.sql`](https://github.com/trstringer/SQLSalt/blob/master/Instance/Databases/Instance_Databases_GetLogFileConsumptionForAllDBs.sql)  
@@ -98,6 +99,7 @@
 ## PowerShell  
 ### Databases  
 [`PowerShell_Databases_GetDbOwner.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Databases/PowerShell_Databases_GetDbOwner.ps1)  
+[`PowerShell_Databases_ScriptGenerator.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/Databases/PowerShell_Databases_ScriptGenerator.ps1)  
 ### EventLog  
 [`PowerShell_EventLog_GetSQLErrors.ps1`](https://github.com/trstringer/SQLSalt/blob/master/PowerShell/EventLog/PowerShell_EventLog_GetSQLErrors.ps1)  
 ### Hardware  
