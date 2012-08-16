@@ -142,6 +142,15 @@
 [`LogonTrigger_1_CreateLoginAdmissionTable.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_1_CreateLoginAdmissionTable.sql)  
 [`LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_2_CreateAddLoginPermittedTimeStoredProcedure.sql)  
 [`LogonTrigger_3_CreateLogonTrigger.sql`](https://github.com/trstringer/SQLSalt/blob/master/Security/Triggers/LogonTrigger_3_CreateLogonTrigger.sql)  
+## ServerMonitoring  
+### Instance  
+[`ServerMonitoring_Instance_CreateDatabaseObjects.sql`](https://github.com/trstringer/SQLSalt/blob/master/ServerMonitoring/Instance/ServerMonitoring_Instance_CreateDatabaseObjects.sql)  
+[`ServerMonitoring_Instance_CreateServerObjects.sql`](https://github.com/trstringer/SQLSalt/blob/master/ServerMonitoring/Instance/ServerMonitoring_Instance_CreateServerObjects.sql)  
+[`ServerMonitoring_Instance_GetServerDetails.ps1`](https://github.com/trstringer/SQLSalt/blob/master/ServerMonitoring/Instance/ServerMonitoring_Instance_GetServerDetails.ps1)  
+### JobScripts  
+[`ServerMonitoring_JobScripts_FreeFileSpace.sql`](https://github.com/trstringer/SQLSalt/blob/master/ServerMonitoring/JobScripts/ServerMonitoring_JobScripts_FreeFileSpace.sql)  
+### Logging  
+[`ServerMonitoring_Logging_CreateErrorObjects.sql`](https://github.com/trstringer/SQLSalt/blob/master/ServerMonitoring/Logging/ServerMonitoring_Logging_CreateErrorObjects.sql)  
 ## SQLServerAgent  
 ### Alerts  
 [`SQLServerAgent_Alerts_CreateAlertsSeverError.sql`](https://github.com/trstringer/SQLSalt/blob/master/SQLServerAgent/Alerts/SQLServerAgent_Alerts_CreateAlertsSeverError.sql)  
